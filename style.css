@@ -1,17 +1,19 @@
-body {
-    background-image: url("https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=961&q=80");
-    width: 350%;
+html {
+    background: url("https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=961&q=80") center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
     background-color: black;
 }
 
-body.opposite {
+html.opposite {
     background-image: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");    
     background-color: white;
 }
 
-.container-lg {
+.container-sm {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -19,12 +21,12 @@ body.opposite {
     background-color: white;
     text-align: center;
     border-radius: 5%;
-    width: 60%;
+    width: auto;
     opacity: .8;
     box-shadow: 2px 6px 10px #444343;
 }
 
-.container-lg.opposite {
+.container-sm.opposite {
     background-color: black;
     color: white;
 }
