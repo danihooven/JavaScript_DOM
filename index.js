@@ -2,7 +2,7 @@ function hitTheLights() {
     if (document.getElementById("myCheckbox").checked == true){
         document.querySelector("H1").textContent = "Good Bye";
         document.querySelector("p").innerHTML = "<em>All done.</em>";
-        document.querySelector("form label").textContent = "I've been Checked!";
+        document.querySelector("form label").textContent = "I've been checked!";
         document.querySelector("html").classList.add("opposite");
         document.getElementsByTagName("div")[0].classList.add("opposite");
         document.querySelector("a").classList.remove("invisible");
